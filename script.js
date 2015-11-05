@@ -2,7 +2,7 @@
 	var abcArr = ["abcdefghijklmnopqrstuvwxyz"]; 
 	var  numArr = ["0123456789"];
 
-	for(var i = 0; i<=99 ; i++){
+	for(var i = 0; i<=99*400 ; i++){
 
 		var blksquare = document.createElement("div");
 		body.appendChild(blksquare); 
@@ -18,7 +18,6 @@
 		
 
 		var redsquare = document.createElement("div");
-		//body.appendChild(redsquare); 
 
 		
 		redsquare.style.background = "#" + randomColor;
