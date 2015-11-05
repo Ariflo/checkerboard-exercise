@@ -1,6 +1,5 @@
 	var body = document.getElementsByTagName("body") [0];
-	var abcArr = ["abcdefghijklmnopqrstuvwxyz"]; 
-	var  numArr = ["0123456789"];
+	 
 
 	for(var i = 0; i<=99*400 ; i++){
 
