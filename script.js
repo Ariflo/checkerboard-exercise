@@ -12,7 +12,10 @@
 			square.style.paddingBottom = '11.1%';
 
 		};
-		 setTimeout(function () { location = ' ';}, 2000);
+		 setTimeout(function () { location = ' ';}, 5000);
+
+		 var audio = new Audio("K.C & THE SUNSHINE BAND - That's the way I like it (1974).mp3");
+		audio.play();
 
 
 
